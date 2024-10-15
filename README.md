@@ -1,131 +1,59 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+#README.md for Milestone Project 1 - The Xzitz
 
-Welcome USER_NAME,
+## UX / UI
+###
+### Use Cases
+..*Fans of the band
+..* Pub / Club promoters
+## Testing
+### Bugs discovered
+## Wireframes
+Wireframes were created using Balsamiq [https://balsamiq.com/wireframes/] , I have attached screenshots here:
+   ![Wireframe-Home page-desktop](https://github.com/user-attachments/assets/dd98c459-c669-4a98-b638-f7506576feba)
+   ![Wireframe-Home page-mobile](https://github.com/user-attachments/assets/874a5ca6-2930-40c3-a1ed-db9a4981a198)
+   ![Wireframe-Gallery page-desktop](https://github.com/user-attachments/assets/66a0e961-0fef-4074-9aec-cbe2be178c18)
+   ![Wireframe-Gallery page-mobile](https://github.com/user-attachments/assets/215a7277-f840-4b51-a993-50aa254baff6)
+   ![Wireframe-Contact page-desktop](https://github.com/user-attachments/assets/454493ff-89f3-4177-bfe8-7975117ad9db)
+   ![Wireframe-Contact page-mobile](https://github.com/user-attachments/assets/9ade2bb0-330e-4403-b1d1-9b3089a1f776)
+   ![Wireframe-Confirmation page-desktop](https://github.com/user-attachments/assets/148eef2f-1b56-444c-94bd-dc0937342e21)
+   ![Wireframe-Confirmation page-mobile](https://github.com/user-attachments/assets/963bd9c9-3b0d-4c52-8194-fa6f21725e21)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Code
+  [https://ianlunn.github.io/Hover/]
+  [https://fontawesome.com/search?q=facebook&o=r&m=free]
+  
+## Content
+ with the band's permission I used the following content:
+    1. Text content from:
+    2. Photos from:
+    3. Videos from:
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
+## Deployment
+   The project was developed using the Code Institute CI Template [https://github.com/Code-Institute-Org/ci-full-template]
+   To deploy this page to GitHub Pages from the GitHub repository  I completed the following steps:
+   1. Log in to GitHub
+## Lighthouse
+   I ran the Lighthouse report on all 4 pages with the following results:
+   1. Home page
+      ![Lighthouse-Home page](https://github.com/user-attachments/assets/2ff67d9b-dd97-43e6-907d-e4017009bdd8)
+   2. Gallery page
+      ![Lighthouse-Gallery page](https://github.com/user-attachments/assets/888fc19b-5997-44d2-a3ff-f4d10997144c)
+   3. Contact page
+      ![Lighthouse-Contact page](https://github.com/user-attachments/assets/0fbc7056-8037-4c30-a15f-5bc09afa8ead)
+   4. Confirmation page
+      ![Lighthouse-Confirmation page](https://github.com/user-attachments/assets/8dec5fc3-d0fa-4602-ae88-5176f760bd60)
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
 
-A blue button should appear to click: _Make Public_,
+## W3C CSS Validation
+   I uploaded my style.css file by direct input to [https://jigsaw.w3.org/css-validator/] and it validated as CSS level 3:
+   ![jigsaw CSS validation](https://github.com/user-attachments/assets/90e931a5-2215-4a49-bb5e-6286e9629a86)
+   ![jigsaw validation info](https://github.com/user-attachments/assets/3ff97d20-1b25-4b19-8ea0-975c4e095933)
+## W3C HTML Validation
+   I uploaded my index.html file by direct input to [https://validator.w3.org/detailed.html#validate-by-uri] and it passed:
+   ![HTML validation](https://github.com/user-attachments/assets/85e66e00-6854-404c-a3f9-8deff45cbec4)
+   ![HTML validation results](https://github.com/user-attachments/assets/ac586a45-2fff-4def-877d-366e6bcfd464)
 
-Another blue button should appear to click: _Open Browser_.
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
 
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
-
-### Connecting your Mongo database
-
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**June 18, 2024,** Add Mongo back into template
-
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
-
-**May 28 2024:** Fix Mongo and Links installs
-
-**April 26 2024:** Update node version to 16
-
-**September 20 2023:** Update Python version to 3.9.17.
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
